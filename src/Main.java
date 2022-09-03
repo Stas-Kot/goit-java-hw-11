@@ -11,15 +11,15 @@ public class Main {
 //        Task 1
 
         Task1 task1 = new Task1();
-//        String names = task1.namesString();
+        String names = task1.namesString();
 
-        String names = task1.namesString(nameList, list -> {
-            String res = "";
-            for (int i = 1; i < list.size(); i += 2) {
-                res += i + "." + list.get(i) + ", ";
-            }
-            return res.substring(0, res.length() - 2) + ".";
-        });
+//        String names = task1.namesString(nameList, list -> {
+//            String res = "";
+//            for (int i = 1; i < list.size(); i += 2) {
+//                res += i + "." + list.get(i) + ", ";
+//            }
+//            return res.substring(0, res.length() - 2) + ".";
+//        });
 
 
         System.out.println(names);
